@@ -1,2 +1,2 @@
-# WebGPU-CPP
-A Demo of WebGpu in C++
+# WebGPU-GLFW-CPP
+A Demo of WebGpu with GLFW in C++
