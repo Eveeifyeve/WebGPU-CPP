@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.11...3.25)
 
-include(FetchContent)
-
 add_executable(App main.cpp)
+
+include(FetchContent)
 
 project(
 		WEBGPU-CPP
@@ -38,6 +38,8 @@ FetchContent_Declare(
   GIT_REPOSITORY https://github.com/eliemichel/WebGPU-distribution.git
   GIT_TAG dawn
 )
+
+FetchContent_MakeAvailable(webgpu)
 
 # Link Librarys
 target_link_libraries(App PRIVATE webgpu glfw)
