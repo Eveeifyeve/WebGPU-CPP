@@ -6,7 +6,7 @@
 ## Setup Project
 
 
-To setup the project for c+++ develop menet run: 
+To setup the project for development run: 
 ```
 cmake -B build
 ```
